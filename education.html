@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forex Education - ForexFrenzy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        .term-card {
+            transition: all 0.3s ease;
+        }
+        .term-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-gradient-to-r from-blue-800 to-blue-600 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center space-x-2">
+                    <i data-feather="trending-up" class="h-8 w-8 text-white"></i>
+                    <span class="text-2xl font-bold text-white tracking-tight">ForexFrenzy</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-blue-100 hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-200">Home</a>
+                    <a href="education.html" class="text-white bg-blue-900 bg-opacity-30 rounded-lg px-3 py-2 text-sm font-medium">Education</a>
+                    <a href="strategies.html" class="text-blue-100 hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-200">Strategies</a>
+                    <a href="brokers.html" class="text-blue-100 hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-200">Brokers</a>
+                    <a href="tools.html" class="text-blue-100 hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-200">Tools</a>
+                    <a href="contact.html" class="text-blue-100 hover:text-white px-3 py-2 text-sm font-medium transition-colors duration-200">Contact</a>
+                </div>
+<div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" aria-expanded="false">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <div class="bg-gradient-to-r from-blue-700 to-blue-500">
+        <div class="max-w-7xl mx-auto py-20 px-4 sm:py-28 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
+                Master Forex Trading
+            </h1>
+            <p class="mt-6 max-w-2xl mx-auto text-xl text-blue-100">
+                Essential knowledge to make informed trading decisions and maximize your potential.
+            </p>
+            <div class="mt-8 flex justify-center">
+                <div class="inline-flex rounded-md shadow">
+                    <a href="#key-terms" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50">
+                        Explore Concepts
+                        <i data-feather="arrow-down" class="ml-2 w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- What is Forex Section -->
+        <div class="bg-white shadow-xl rounded-xl p-8 mb-16 transform transition hover:shadow-2xl hover:-translate-y-1">
+<div class="md:flex md:items-center md:justify-between">
+                <div class="flex-1 min-w-0">
+                    <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">
+                        What is Forex Trading?
+                    </h2>
+                </div>
+            </div>
+            <div class="mt-6 border-t border-gray-200 pt-6">
+                <p class="text-lg text-gray-700 mb-6">
+                    The foreign exchange market (Forex) is where currencies are traded. It's the largest financial market in the world, with over $6 trillion traded daily. Forex trading involves buying one currency while simultaneously selling another.
+                </p>
+                <div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-8 border-l-4 border-blue-500">
+<div class="flex">
+                        <div class="flex-shrink-0">
+                            <i data-feather="info" class="h-5 w-5 text-blue-600"></i>
+                        </div>
+                        <div class="ml-3">
+                            <h3 class="text-sm font-medium text-blue-800">
+                                Key Characteristics
+                            </h3>
+                            <div class="mt-2 text-sm text-blue-700">
+                                <ul class="list-disc pl-5 space-y-1">
+                                    <li>24-hour market (except weekends)</li>
+                                    <li>High liquidity (easy to enter/exit trades)</li>
+                                    <li>Low transaction costs compared to other markets</li>
+                                    <li>Ability to profit in both rising and falling markets</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Key Terms Section -->
+        <div class="mb-16" id="key-terms">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Essential Forex Terms</h2>
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <!-- Pip Card -->
+                <div class="term-card bg-white overflow-hidden shadow-xl rounded-xl hover:shadow-2xl transition-all">
+<div class="p-6">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0 bg-blue-500 rounded-md p-3">
+                                <i data-feather="move" class="h-6 w-6 text-white"></i>
+                            </div>
+                            <div class="ml-5 w-0 flex-1">
+                                <h3 class="text-lg font-medium text-gray-900">Pip</h3>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-sm text-gray-600">
+                                A <strong>pip</strong> (percentage in point) is the smallest price move that a currency pair can make. For most pairs, it's 0.0001 (1/100th of 1%). Example: If EUR/USD moves from 1.1050 to 1.1051, that's 1 pip.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 px-6 py-4">
+                        <div class="text-sm">
+                            <span class="font-medium text-blue-600">Example:</span>
+                            <span class="ml-1 text-gray-600">USD/JPY at 109.85 moving to 109.86 = +1 pip</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lot Card -->
+                <div class="term-card bg-white overflow-hidden shadow rounded-lg">
+                    <div class="p-6">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0 bg-green-500 rounded-md p-3">
+                                <i data-feather="package" class="h-6 w-6 text-white"></i>
+                            </div>
+                            <div class="ml-5 w-0 flex-1">
+                                <h3 class="text-lg font-medium text-gray-900">Lot</h3>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-sm text-gray-600">
+                                A <strong>lot</strong> is the standardized quantity of a currency. 
+                                <ul class="list-disc pl-5 mt-2 space-y-1">
+                                    <li>Standard lot = 100,000 units</li>
+                                    <li>Mini lot = 10,000 units</li>
+                                    <li>Micro lot = 1,000 units</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 px-6 py-4">
+                        <div class="text-sm">
+                            <span class="font-medium text-green-600">Example:</span>
+                            <span class="ml-1 text-gray-600">1 standard lot of EUR/USD = €100,000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leverage Card -->
+                <div class="term-card bg-white overflow-hidden shadow rounded-lg">
+                    <div class="p-6">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0 bg-purple-500 rounded-md p-3">
+                                <i data-feather="zoom-in" class="h-6 w-6 text-white"></i>
+                            </div>
+                            <div class="ml-5 w-0 flex-1">
+                                <h3 class="text-lg font-medium text-gray-900">Leverage</h3>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-sm text-gray-600">
+                                <strong>Leverage</strong> allows traders to control large positions with relatively little capital. Expressed as a ratio (e.g., 50:1, 100:1, 500:1). While it can amplify profits, it also increases potential losses.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 px-6 py-4">
+                        <div class="text-sm">
+                            <span class="font-medium text-purple-600">Example:</span>
+                            <span class="ml-1 text-gray-600">With 100:1 leverage, $1,000 controls $100,000 position</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Currency Pair Card -->
+                <div class="term-card bg-white overflow-hidden shadow rounded-lg">
+                    <div class="p-6">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0 bg-yellow-500 rounded-md p-3">
+                                <i data-feather="link" class="h-6 w-6 text-white"></i>
+                            </div>
+                            <div class="ml-5 w-0 flex-1">
+                                <h3 class="text-lg font-medium text-gray-900">Currency Pairs</h3>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-sm text-gray-600">
+                                Currencies are traded in pairs (e.g., EUR/USD). The first currency is the <strong>base</strong>, the second is the <strong>quote</strong>. Major pairs include EUR/USD, GBP/USD, USD/JPY, USD/CHF, AUD/USD, USD/CAD, NZD/USD.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 px-6 py-4">
+                        <div class="text-sm">
+                            <span class="font-medium text-yellow-600">Example:</span>
+                            <span class="ml-1 text-gray-600">EUR/USD = 1.1200 means 1 Euro = 1.12 US Dollars</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spread Card -->
+                <div class="term-card bg-white overflow-hidden shadow rounded-lg">
+                    <div class="p-6">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0 bg-red-500 rounded-md p-3">
+                                <i data-feather="minus" class="h-6 w-6 text-white"></i>
+                            </div>
+                            <div class="ml-5 w-0 flex-1">
+                                <h3 class="text-lg font-medium text-gray-900">Spread</h3>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-sm text-gray-600">
+                                The <strong>spread</strong> is the difference between the bid (sell) and ask (buy) price. This is how brokers make money. Lower spreads are better for traders as they reduce trading costs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 px-6 py-4">
+                        <div class="text-sm">
+                            <span class="font-medium text-red-600">Example:</span>
+                            <span class="ml-1 text-gray-600">EUR/USD bid=1.1200, ask=1.1202 → spread=2 pips</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Margin Card -->
+                <div class="term-card bg-white overflow-hidden shadow rounded-lg">
+                    <div class="p-6">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0 bg-indigo-500 rounded-md p-3">
+                                <i data-feather="dollar-sign" class="h-6 w-6 text-white"></i>
+                            </div>
+                            <div class="ml-5 w-0 flex-1">
+                                <h3 class="text-lg font-medium text-gray-900">Margin</h3>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-sm text-gray-600">
+                                <strong>Margin</strong> is the amount of money required to open and maintain a leveraged position. It's a good faith deposit, not a fee. Margin requirements vary by broker and leverage.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 px-6 py-4">
+                        <div class="text-sm">
+                            <span class="font-medium text-indigo-600">Example:</span>
+                            <span class="ml-1 text-gray-600">1% margin on $100,000 position = $1,000 required</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- How It Works Section -->
+        <div class="bg-white shadow rounded-lg p-6 mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6">How Forex Trading Works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-lg font-medium text-gray-900 mb-3">Buying and Selling Currencies</h3>
+                    <p class="text-gray-700 mb-4">
+                        When you trade forex, you're essentially buying one currency while selling another. If you think the base currency will strengthen against the quote currency, you buy (go long). If you think it will weaken, you sell (go short).
+                    </p>
+                    <div class="bg-blue-50 rounded-lg p-4 mb-4">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <i data-feather="alert-circle" class="h-5 w-5 text-blue-600"></i>
+                            </div>
+                            <div class="ml-3">
+                                <h3 class="text-sm font-medium text-blue-800">
+                                    Remember
+                                </h3>
+                                <div class="mt-2 text-sm text-blue-700">
+                                    <p>All trades involve two currencies - you're always long one and short the other.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-medium text-gray-900 mb-3">Basic Trading Example</h3>
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 pt-0.5">
+                                <i data-feather="check-circle" class="h-5 w-5 text-green-500"></i>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm text-gray-700">
+                                    <strong>Scenario:</strong> You believe the Euro will rise against the US Dollar.<br>
+                                    <strong>Action:</strong> Buy EUR/USD at 1.1200<br>
+                                    <strong>Outcome A (Profit):</strong> Price rises to 1.1250 (+50 pips)<br>
+                                    <strong>Outcome B (Loss):</strong> Price falls to 1.1150 (-50 pips)<br>
+                                    <strong>Lot Size:</strong> 1 standard lot (€100,000)<br>
+                                    <strong>Pip Value:</strong> $10 per pip (for standard lots)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Next Steps -->
+        <div class="bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl p-8 text-white">
+            <div class="lg:flex lg:items-center lg:justify-between">
+                <div class="flex-1 min-w-0">
+                    <h2 class="text-2xl font-bold sm:text-3xl">
+                        Ready to learn trading strategies?
+                    </h2>
+                    <p class="mt-3 text-lg text-blue-100">
+                        Now that you understand the basics, learn how to apply trading strategies to capitalize on market movements.
+                    </p>
+                </div>
+                <div class="mt-8 flex lg:mt-0 lg:ml-8">
+                    <a href="strategies.html" class="inline-flex items-center justify-center px-6 py-4 border border-transparent text-lg font-medium rounded-xl text-blue-700 bg-white hover:bg-blue-50 transition-all transform hover:scale-105">
+                        Explore Strategies
+                        <i data-feather="arrow-right" class="ml-3 w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+</div>
+    <!-- Footer -->
+    <footer class="bg-gray-900">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+                <div class="space-y-8 xl:col-span-1">
+                    <div class="flex items-center">
+                        <i data-feather="trending-up" class="h-8 w-8 text-blue-400"></i>
+                        <span class="ml-2 text-2xl font-bold text-white">ForexFrenzy</span>
+                    </div>
+                    <p class="text-gray-300 text-base">
+                        Empowering traders with knowledge and tools for financial success.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i data-feather="twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i data-feather="facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i data-feather="youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
+                    <div class="md:grid md:grid-cols-2 md:gap-8">
+                        <div>
+                            <h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase">
+                                Resources
+                            </h3>
+                            <div class="mt-4 space-y-4">
+                                <a href="education.html" class="text-base text-gray-400 hover:text-white block">Education</a>
+                                <a href="strategies.html" class="text-base text-gray-400 hover:text-white block">Strategies</a>
+                                <a href="tools.html" class="text-base text-gray-400 hover:text-white block">Tools</a>
+                            </div>
+                        </div>
+                        <div class="mt-12 md:mt-0">
+                            <h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase">
+                                Company
+                            </h3>
+                            <div class="mt-4 space-y-4">
+                                <a href="brokers.html" class="text-base text-gray-400 hover:text-white block">Brokers</a>
+                                <a href="contact.html" class="text-base text-gray-400 hover:text-white block">Contact</a>
+                                <a href="#" class="text-base text-gray-400 hover:text-white block">Privacy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-800 pt-8">
+                <p class="text-base text-gray-400 text-center">
+                    &copy; 2023 ForexFrenzy. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            feather.replace();
+            
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
